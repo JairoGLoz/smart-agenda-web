@@ -5,6 +5,7 @@ import Login from "./pages/login/Login";
 import Signup from "./pages/signup/Signup";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
+import Week from "./pages/week/Week";
 
 function App() {
 
@@ -18,9 +19,9 @@ function App() {
                     <div className="container">
                         <Navbar/>
                         <Switch>
-                            <Route exact path="/">
+                            <Route path="/week">
                                 {!user && <Redirect to={"/login"}/>}
-                                {/*{user && <Dashboard/>}*/}
+                                {user && <Week/>}
                             </Route>
                             {/*<Route path="/create">
                   {!user && <Redirect to={"/login"}/>}

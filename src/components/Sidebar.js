@@ -21,15 +21,15 @@ export default function Sidebar() {
                 <nav className={"links"}>
                     <ul>
                         <li>
-                            <NavLink exact to={"/"}>
+                            <NavLink exact to={"/week"}>
                                 <img src={DashboardIcon} alt={"dashboard icon"}/>
-                                <span>Dashboard</span>
+                                <span>My Week</span>
                             </NavLink>
                         </li>
                         <li>
                             <NavLink to={"/create"}>
                                 <img src={AddIcon} alt={"add project icon"}/>
-                                <span>New Project</span>
+                                <span>New Task</span>
                             </NavLink>
                         </li>
                     </ul>
