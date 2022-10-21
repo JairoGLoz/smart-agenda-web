@@ -21,6 +21,9 @@ const roles_tasks = [
     }
 ]
 
+// Todo: create a component to hold RoleTasks
+// Todo: use the Task component inside the RoleTasks
+
 export default function RolesTasks() {
     return (
         <div className={"roles-tasks"}>

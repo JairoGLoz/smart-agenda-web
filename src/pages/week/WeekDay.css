@@ -1,0 +1,15 @@
+.week-day{
+    background-color: darkgray;
+    border-radius: 10px;
+    margin: 1px 1px;
+    padding: 3px 3px;
+}
+
+.week-day .date{
+    text-align: center;
+    font-size: 0.75em;
+}
+
+.week-day h3{
+    text-align: center;
+}

@@ -1,0 +1,17 @@
+.week-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    min-width: 900px;
+    margin: 0px 10px;
+    position: relative;
+    border: 3px solid #333;
+
+}
+
+.item {
+    background-color: darkgray;
+}
+
+.item-title {
+    text-align: center;
+}
