@@ -3,6 +3,12 @@
     border-radius: 10px;
     margin: 1px 1px;
     padding: 3px 3px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.week-day::-webkit-scrollbar {
+    display: none;
 }
 
 .week-day .date{

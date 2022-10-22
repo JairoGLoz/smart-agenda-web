@@ -18,6 +18,15 @@ const roles_tasks = [
             {name: "task5"},
             {name: "task6"}
         ]
+    },
+    {
+        roleName: "family",
+        id: "3",
+        tasks: [
+            {name: "task4"},
+            {name: "task5"},
+            {name: "task6"}
+        ]
     }
 ]
 

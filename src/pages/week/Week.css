@@ -1,4 +1,5 @@
-.Week {
+.week {
     position: relative;
     display: flex;
+    max-height: 500px;
 }

@@ -5,7 +5,7 @@ import WeekGrid from "./WeekGrid";
 export default function Week() {
 
     return (
-        <div className={"Week"}>
+        <div className={"week"}>
             <RolesTasks/>
             <WeekGrid/>
         </div>
